@@ -19,7 +19,7 @@ First, let's figure out what day and time it is!
 What command did you use, and what was its output?
 ----------
 
-
+date
 
 ==========
 2. Print out a calendar for this month.
@@ -27,7 +27,7 @@ What command did you use, and what was its output?
 What command did you use, and what was its output?
 ----------
 
-
+cal 
 
 ==========
 3. a) Go to your home directory.  b) Verify that you're in your home directory.
@@ -35,7 +35,7 @@ What command did you use, and what was its output?
 What commands did you use to do this?
 ----------
 
-
+cd ~
 
 ==========
 4. a) Create an empty file called copy_to_backup.sh.  b) Verify that the file exists.
@@ -43,7 +43,7 @@ What commands did you use to do this?
 What commands did you use to do this?
 ----------
 
-
+touch copy_backup.sh
 
 ==========
 5. What are the permissions on copy_to_backup.sh.
@@ -51,7 +51,7 @@ What commands did you use to do this?
 What command did you use to find the permissions?
 ----------
 
-
+-rw-r--r--  1 student  staff  0 Mar 18 16:27 copy_to_backup.sh
 
 ==========
 6. a) Change the permissions so that copy_to_backup.sh is executable by the user.  b) Verify the new permissions.
@@ -59,7 +59,7 @@ What command did you use to find the permissions?
 What commands did you use to do this?  What was the output?
 ----------
 
-
+chmod u+x copy_to_backup.sh
 
 ==========
 7. Try executing (running) the file!
@@ -68,7 +68,7 @@ $ ./copy_to_backup.sh
 
 What command did you use to try to execute the file?  What happens?
 ----------
-
+no output 
 
 
 ==========
